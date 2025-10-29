@@ -149,16 +149,15 @@ A fully containerized **3-tier (React, NodeJS, MongoDB) application** deployed o
 
 ---
 
-### 3. [Multi-Environment Infrastructure as Code (IaC)](https://github.com/navabdarveshali/multi-env-lac-project)
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)](https://terraform.io)  [![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)](https://ansible.com)  [![Terratest](https://img.shields.io/badge/Terratest-000000?style=flat&logo=golang&logoColor=white)](https://terratest.gruntwork.io)
+### 3. [Infrastructure as Code (IaC)](https://github.com/navabdarveshali/terraform.git)
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)](https://terraform.io)  [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)  [![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat&logo=amazons3&logoColor=white)](https://aws.amazon.com/s3/)  [![Amazon DynamoDB](https://img.shields.io/badge/Amazon_DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)](https://aws.amazon.com/dynamodb/)
 
-**Scalable, environment-aware provisioning** framework for dev/stage/prod.
+**Scalable, state management** framework infrastructure management.
 
 **Key highlights:**
-- Automated provisioning for three concurrent versions, cutting spin-up time from 1 day to under 2 hours  
-- Infrastructure testing with Terratest, catching 95% of misconfigurations pre-production  
-- Modular Terraform + Ansible code promoting DRY policies and reuse  
-- GitOps workflow improved cross-team collaboration and reduced friction by 40%  
+- Implemented a collision-proof Terraform workflow using DynamoDB state locking, enabling safe, concurrent infrastructure changes for developer teams. 
+- Engineered a scalable AWS backend for Terraform, using S3 for persistent remote state storage and DynamoDB to prevent state file corruption.
+- Automated the provisioning of EC2 instances and Security Groups, creating a 100% repeatable and auditable Infrastructure as Code (IaC) process. 
 
 ---
 
