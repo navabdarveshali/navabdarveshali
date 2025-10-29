@@ -123,29 +123,29 @@ I'm Navab Darveshali, a DevOps enthusiast actively bridging the gap between deve
 
 ## 🏗️ Featured Projects
 
-### 1. [DevSecOps Banking Application on AWS EKS](https://github.com/navabdarveshali/DevOps-mega-project/tree/project)
-[![AWS EKS](https://img.shields.io/badge/AWS_EKS-4F6DB8?style=flat&logo=amazonaws&logoColor=white)](https://aws.amazon.com/eks/)  [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://docker.com)  [![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)](https://jenkins.io)  [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)](https://terraform.io)  [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)](https://prometheus.io)  [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)](https://grafana.com)
+### 1. [Three-Tier-Application-Deployment-on-AWS-EKS](https://github.com/navabdarveshali/Three-Tier-Application-Deployment-on-AWS-EKS.git)
+[![AWS EKS](https://img.shields.io/badge/AWS_EKS-4F6DB8?style=flat&logo=amazonaws&logoColor=white)](https://aws.amazon.com/eks/)  [![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)](https://argoproj.github.io/cd/)  [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://docker.com)  [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)](https://prometheus.io)  [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)](https://grafana.com)  [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)  [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/)  [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-**Secure, multi-tier banking application** on AWS EKS, delivering enterprise-grade reliability and compliance.
+A fully containerized **3-tier (React, NodeJS, MongoDB) application** deployed on **AWS EKS**, featuring automated GitOps, persistent storage, and full-stack monitoring.
 
 **Key highlights:**
-- Achieved 99.9% uptime by deploying on AWS EC2 + EKS with resilient, multi-AZ clusters  
-- Integrated OWASP ZAP & Trivy into CI/CD, cutting security vulnerabilities by 75%  
-- Auto-scaling policies seamlessly handled 200% traffic spikes without degrading performance  
-- End-to-end automation using Jenkins, Terraform, Prometheus & Grafana reduced deployment time from 2 hours to 15 minutes  
+- Fully automated the deployment pipeline using **ArgoCD (GitOps)**, slashing deployment time and ensuring the cluster state is always in sync with the GitHub repository.
+- Engineered for high availability and performance using **AWS EKS** with an **Application Load Balancer**, featuring autoscaling policies to seamlessly handle traffic spikes. 
+- Secured all application credentials and sensitive data using **AWS Secrets Manager**, completely eliminating secrets from the codebase and build process. 
+- Established end-to-end observability into all three tiers using **Prometheus** and **Grafana** for real-time metrics and application health monitoring.
 
 ---
 
-### 2. [DevSecOps Google Gemini Clone on AWS EKS](https://github.com/navabdarveshali/dev-gemini-clone)
-[![AWS EKS](https://img.shields.io/badge/AWS_EKS-4F6DB8?style=flat&logo=amazonaws&logoColor=white)](https://aws.amazon.com/eks/)  [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://docker.com)  [![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)](https://jenkins.io)  [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)](https://terraform.io)  [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)](https://prometheus.io)  [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)](https://grafana.com)
+### 2. [DevSecOps Wanderlust-Mega-Project AWS EKS](https://github.com/navabdarveshali/Wanderlust-Mega-Project.git)
+[![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)](https://jenkins.io)  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/)  [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://docker.com)  [![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)](https://argoproj.github.io/cd/)  [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)  [![SonarQube](https://img.shields.io/badge/SonarQube-A50F25?style=flat&logo=sonarqube&logoColor=white)](https://www.sonarqube.org/)  [![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white)](https://owasp.org/)  [![Trivy](https://img.shields.io/badge/Trivy-00A9F5?style=flat&logo=trivy&logoColor=white)](https://github.com/aquasecurity/trivy)  [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)](https://prometheus.io)  [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)](https://grafana.com)
 
-**GitOps-driven Gemini-style search UI** deployed via AWS EKS.
+**Automated DevSecOps Pipeline on Kubernetes**
 
 **Key highlights:**
-- Seamless GitOps deployment with Argo CD achieving 99.9% reliability  
-- Integrated SonarQube, OWASP & Trivy scans in Jenkins pipeline, reducing production vulnerabilities by 80%  
-- Automated rollbacks on failure, decreasing deployment failures by 95% and recovery time by 85%  
-- End-to-end observability with Prometheus & Grafana enabling 70% faster incident detection  
+- Integrated SonarQube, OWASP, & Trivy scans in the Jenkins pipeline, creating multi-stage security gates to block code, dependency, and image vulnerabilities. 
+- Enabled seamless GitOps deployments via ArgoCD, automating cluster synchronization from GitHub for 100% reliable and auditable releases.
+- Established end-to-end observability with Prometheus & Grafana, enabling real-time monitoring and immediate email alerts for faster incident detection.  
+- Fully automated the 'commit-to-deploy' lifecycle, orchestrating CI (build, scan) and CD (GitOps sync) with a decoupled, trigger-based Jenkins pipeline. 
 
 ---
 
