@@ -198,7 +198,7 @@ I'm always excited to discuss:
 - Open-source contributions
 
 <div align="center">
-  <a href="https://amitabh.engineer/">
+  <a href="https://navabdarveshali.xyz/">
     <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" alt="Portfolio"/>
   </a>
   <a href="https://linkedin.com/in/navabdarveshali">
